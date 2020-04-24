@@ -1,5 +1,5 @@
 {
-  "name": "react-context-provider",
+  "name": "react-dynamic-context-provider",
   "version": "1.0.0",
   "description": "An easy way to config multiple contexts in React application",
   "main": "index.js",
@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidOnGitHub/react-context-provider"
+    "url": "https://github.com/DavidOnGitHub/react-dynamic-context-provider"
   }
 }

@@ -1,4 +1,4 @@
-# react-context-provider
+# react-dynamic-context-provider
 
 Provides an easy way to manage react contexts.
 # Problem to solve
@@ -53,7 +53,7 @@ This is hard to manage especially when you need to remove or change the name of 
 This package manages the above boilerplate for you. With this package the above code becomes
 ```js
 import React from 'react';
-import { getContextProvider } from 'react-context-provider';
+import { getContextProvider } from 'react-dynamic-context-provider';
 
 const contexts = [
     { name: 'User', value: null },
@@ -73,7 +73,7 @@ export default App;
 
 When you need to add a new context (e.g. ```MyValue```), simply add a new name-value pair in the array of ```contexts```. Then two contexts will be automatically created ```MyValueContext``` and ```SetMyValueContext```. You can import and use them like
 ```js
-import { getContexts } from 'react-context-provider';
+import { getContexts } from 'react-dynamic-context-provider';
 ...
 const myValue = getContexts().MyValueContext;
 const setMyValue = getContexts().SetMyValueContext;
@@ -83,5 +83,5 @@ When you need to remove a context, simply remove the context from the array ```c
 # Installation
 
 ```
-yarn add react-context-provider
+yarn add react-dynamic-context-provider
 ```
