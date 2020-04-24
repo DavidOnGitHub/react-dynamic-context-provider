@@ -15,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidOnGitHub/react-context-provider"
   }
 }
