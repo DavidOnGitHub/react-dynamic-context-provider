@@ -1,6 +1,6 @@
 import React from 'react';
 
-let contexts = []
+let contexts = [];
 
 const ContextComponent = ({
   ValueContext,
@@ -40,6 +40,6 @@ export const getContextProvider = (contextList) => ({ children }) => {
     ),
     children
   );
-}
+};
 
 export const getContexts = () => contexts;
